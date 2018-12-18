@@ -28,5 +28,19 @@
         android:text="分享"
         app:layout_constraintLeft_toRightOf="@+id/btnlogin"/>
 
+    <Button
+        android:id="@+id/btnuserinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用户信息"
+        app:layout_constraintLeft_toRightOf="@+id/btnshare"/>
+
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登出"
+        app:layout_constraintLeft_toRightOf="@+id/btnuserinfo"/>
+
 
 </android.support.constraint.ConstraintLayout>
